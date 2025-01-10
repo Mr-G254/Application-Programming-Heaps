@@ -13,16 +13,13 @@ Heaps are often represented as binary trees, and these binary trees are typicall
 **Key Operations**
 This repository provides a Java implementation of both Max-Heap and Min-Heap. Below are the key heap operations and their time complexities:
 
-1. Insert
-Description: This operation adds a new element to the heap. The new element is initially added at the end of the tree (the next available position in the array). The heap property is then restored by "bubbling up" the new element.
+1. Insert:This operation adds a new element to the heap. The new element is initially added at the end of the tree (the next available position in the array). The heap property is then restored by "bubbling up" the new element.
 Time Complexity: O(log n), where n is the number of elements in the heap.
 
-2. Extract
-Description: This operation removes and returns the root element (either the maximum or minimum, depending on whether it's a max-heap or min-heap). After removing the root, the last element in the heap is moved to the root position, and the heap property is restored by "bubbling down" this element.
+2. Extract: This operation removes and returns the root element (either the maximum or minimum, depending on whether it's a max-heap or min-heap). After removing the root, the last element in the heap is moved to the root position, and the heap property is restored by "bubbling down" this element.
 Time Complexity: O(log n), where n is the number of elements in the heap.
 
-3. Heapify
-Description: This operation is used to restore the heap property of a subtree. Given a node, heapify ensures that the parent node satisfies the heap property relative to its children. This process is repeated recursively for all nodes in the tree.
+3. Heapify:This operation is used to restore the heap property of a subtree. Given a node, heapify ensures that the parent node satisfies the heap property relative to its children. This process is repeated recursively for all nodes in the tree.
 Time Complexity: O(n), where n is the number of elements in the heap. This operation is typically used to build a heap from an unsorted array.
 
 
