@@ -36,8 +36,7 @@ This operation is used to restore the heap property of a subtree. Given a node, 
 Time Complexity: O(n), where n is the number of elements in the heap. This operation is typically used to build a heap from an unsorted array.
 
 
-
-This repository includes a Java implementation of both Max-Heap and Min-Heap, as well as interfaces for max and min-priority queues. 
+ 
 
 
 Heaps are an essential data structure for various algorithms and are particularly useful for implementing priority queues. This repository provides a clear implementation of Max-Heap and Min-Heap in Java, along with examples of priority queue interfaces. 
