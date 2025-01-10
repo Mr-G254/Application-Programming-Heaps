@@ -45,9 +45,13 @@ Heaps are an essential data structure for various algorithms and are particularl
 *GROUP 8*
 
 VANESSA WAMBUI-SCT212-0108/2022
+
 EVE MAINA-SCT212-0109/2022
+
 EZEKIEL GIKUHI-SCT212-0112/2022
+
 MARK OGARI-0715/2022
+
 SALEM MAINA-0167/2022
 
 
