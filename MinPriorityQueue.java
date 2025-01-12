@@ -87,6 +87,13 @@ class MinPriorityQueue implements PriorityQueue {
 
         return min; // Return the minimum value
     }
+    // Returns the maximum value from the heap without removing it
+    public int peek() {
+        if (heap.isEmpty()) {
+            throw new RuntimeException("Heap is empty"); // Throw exception if the heap is empty
+        }
+        return heap.get(0); // Return the maximum value (root of the heap)
+    }
 
     // Checks if the heap is empty
     @Override
